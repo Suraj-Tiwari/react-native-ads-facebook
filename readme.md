@@ -360,4 +360,7 @@ change 'react-native-fbads' to 'react-native-ads-facebook' in your import depend
 ### Credits
 
 Some of the API explanations were borrowed from Facebook SDK documentation.
+
 Documentation taken from react-native-fbads
+
+Image Credit [threed.io](http://threed.io/)
