@@ -1,0 +1,26 @@
+{
+  "license": "GNU General Public License v3.0",
+  "main": "index.js",
+  "name": "react-native-ads-facebook",
+  "author": "Suraj Tiwari",
+  "description": "Facebooks Audience network ads library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Suraj-Tiwari/react-native-ads-facebook.git"
+  },
+  "keywords": [
+    "react-native",
+    "facebook",
+    "Audience Network",
+    "Native ads"
+  ],
+  "version": "0.0.1",
+  "rnpm": {
+    "android": {
+      "sourceDir": "android/app"
+    }
+  },
+  "dependencies": {
+    "fbemitter": "^2.1.1",
+  }
+}
