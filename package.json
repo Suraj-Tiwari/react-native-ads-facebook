@@ -2,7 +2,7 @@
   "license": "GNU General Public License v3.0",
   "main": "index.js",
   "name": "react-native-ads-facebook",
-  "author": "Suraj Tiwari",
+  "author": "Suraj Tiwari <surajtiwari020@gmail.com>",
   "description": "Facebooks Audience network ads library",
   "repository": {
     "type": "git",
