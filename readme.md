@@ -93,8 +93,7 @@ Method returns a promise that will be rejected when an error occurs during a cal
 
 Native Ad is a type of an ad that matches the form and function of your React Native interface.
 
-![Facebook Native Ad](./images/nativeAd.png =150)
-<img style='width: 600px' src="images/nativeAd.png"></img>
+<img  height="600" src="https://i.imgur.com/lgLrO13.png"></img>
 
 #### 1. Creating AdsManager
 
