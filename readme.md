@@ -60,6 +60,15 @@ Make sure you have the latest Xcode installed. Open the .xcodeproj in Xcode foun
 
 Next, **follow steps 1 and 3** from the [Getting Started Guide for Facebook Audience](https://developers.facebook.com/docs/audience-network/getting-started). Once you have created the `placement id`, write it down and continue to next section.
 
+### IOS Install Instruction 
+```
+cd ios
+pod init 
+pod 'FBAudienceNetwork','4.99.0' // In your pod file add this
+pod install
+```
+after that open `{projectname.xcworkspace}`
+
 #####Suggestion:
 **Use CocaPods If you want to save your time fixing random issue**
 
@@ -93,8 +102,7 @@ Method returns a promise that will be rejected when an error occurs during a cal
 
 Native Ad is a type of an ad that matches the form and function of your React Native interface.
 
-![Facebook Native Ad](./images/nativeAd.png =150)
-<img style='width: 600px' src="images/nativeAd.png"></img>
+<img  height="600" src="https://i.imgur.com/lgLrO13.png"></img>
 
 #### 1. Creating AdsManager
 
@@ -347,11 +355,15 @@ In order to see ads you will have to create your own `placementId` and use it in
 
 ```bash
 
+//IOS Note: Remove previously integrated FbAudienceNetwork.framework for react-native-fbads
+
 react-native uninstall react-native-fbads
 
 react-native install react-native-ads-facebook
 
 change 'react-native-fbads' to 'react-native-ads-facebook' in your import dependencies.
+
+//IOS NOTE: use pod to install ReactNativeAdsFacebook 
 
 ```
 
