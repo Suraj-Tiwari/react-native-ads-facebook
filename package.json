@@ -14,7 +14,7 @@
     "Audience Network",
     "Native ads"
   ],
-  "version": "0.0.1",
+  "version": "0.2.0",
   "rnpm": {
     "android": {
       "sourceDir": "android/app"
