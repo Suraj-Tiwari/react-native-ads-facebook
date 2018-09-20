@@ -69,8 +69,8 @@ pod install
 ```
 after that open `{projectname.xcworkspace}`
 
-#####Suggestion:
-**Use CocaPods If you want to save your time fixing random issue**
+##### **If Build failed on release see [#3](https://github.com/Suraj-Tiwari/react-native-ads-facebook/issues/3)**
+##### Suggestion: **Use CocaPods If you want to save your time fixing random issue**
 
 #### 2.2. Android
 
